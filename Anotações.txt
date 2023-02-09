@@ -27,6 +27,11 @@ const nome = "Eduardo" = Declara um valor pra variável nome e esse valor será 
 defer = faz com que o javascript seja executado depois do html já ter sido carregado
 EX: <script src="aula06" defer></script> = usando defer que com ele pode ser posicionado no head do escopo ao invés de antes do fechamento
 
+____________________________________________________________________
+n1 & n2 = operador de comparação de bitwise onde só retorna 1 se todos forem 1
+n1 | n2 = operador de comparação de bitwise onde retorna 1 sempre q tiver um ou mais dígitos 1
+n1 << 1 = Deslocando 1 bit para a esquerda (resulta em dobrar o valor) se deslocar 2 bits ele dobra duas vezes
+n1 >> 1 = deslocando 1 bits para a direita (resulta em dividir o valor pela metade) se deslocar 2 bits ele divide duas vezes
 
 
 

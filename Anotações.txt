@@ -1,0 +1,32 @@
+node -v = mostra se o node tá instalado
+code . = abre o editor vscode
+node 'nome do arquivo' = abre o arquivo no prompt
+_____________________________________________________
+JS
+
+console.log("string") = imprime a string dentro das aspas
+console.log(variável) = imprime o conteúdo da variável
+console.log("string: " + variável) = imprime a concatenação da string mais o conteúdo da variável
+
+"use strict" = (com aspas mesmo) Modo estrito, serve para saber se alguma variável não foi declarada e está "entulhando" no código
+
+Variáveis:
+
+var nome = "Eduardo" = Declarando a string "Eduardo" na variável "nome"
+OBS.: A forma de declaração "var" permite q eu use a variável em escopos 
+	posteriores ao q foi usado.
+
+let nome = "Eduardo" = Declarando a string "Eduardo" na variável "nome"
+OBS.: A forma de declaração "let" não permite que a variável nome seja
+	utilizada em escopos posteriores
+
+OBS.: Por esse e outros motivos deve-se dar preferência sempre à forma de declaração let
+
+const nome = "Eduardo" = Declara um valor pra variável nome e esse valor será imutável, ao contrário dos outros tipos de declarações var e let
+
+defer = faz com que o javascript seja executado depois do html já ter sido carregado
+EX: <script src="aula06" defer></script> = usando defer que com ele pode ser posicionado no head do escopo ao invés de antes do fechamento
+
+
+
+

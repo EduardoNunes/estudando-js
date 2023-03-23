@@ -28,10 +28,40 @@ defer = faz com que o javascript seja executado depois do html já ter sido carr
 EX: <script src="aula06" defer></script> = usando defer que com ele pode ser posicionado no head do escopo ao invés de antes do fechamento
 
 ____________________________________________________________________
+Operadores
 n1 & n2 = operador de comparação de bitwise onde só retorna 1 se todos forem 1
 n1 | n2 = operador de comparação de bitwise onde retorna 1 sempre q tiver um ou mais dígitos 1
 n1 << 1 = Deslocando 1 bit para a esquerda (resulta em dobrar o valor) se deslocar 2 bits ele dobra duas vezes
 n1 >> 1 = deslocando 1 bits para a direita (resulta em dividir o valor pela metade) se deslocar 2 bits ele divide duas vezes
+console.log(--n) = faz o decremento e depois imprime a variável
+console.log(n--) = usa a variável e depois faz o decremento
+let n=10 let x=-n = inverte o sinal de n (operação de inversão)
 
+Operador Ternário
+res=(!(num%2) ? "Par" : "Impar") = se o resultado é 0 ele retona falso, se 1 ele retorna verdadeiro. o resultado da frente é o verdadeiro, logo Par é 1 e Impar é 0. Como num%2 por num ser = 11, então ele deve retornar verdadeiro, por isso a necessidade da !, para q o resultado retorne negado e a resposta poder ser impar.
+
+typeof = Operador Unário
+console.log(typeof(v2)) = retorna o tipo da variável
+________________________________________________________________________
+getElementsByTagname = pega elementos html, como ("div")
+____________________________________________________________________________
+No switch case é possível usar mais de 1 case na mesma linha EX:
+case 4: case 5: case 6:
+    execute o comando()
+break
+__________________________________________________________
+FOR IN e FOR OF
+
+forma alternativa de escrever um for
+
+let num = [10,20,30,40,50]
+
+for(n in num){       = faz um laço correndo todas as posições do array num
+   console.log(n)    = n é uma variável para correr pelas posições(vai imprimir as posições)
+}		     = é uma forma simplificada de escrever for(let n=0; n < num.length; n++){}
+
+for(n of num){       = igual o de cima porém imprime o conteúdo do array
+   console.log(n)
+}
 
 

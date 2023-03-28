@@ -64,4 +64,10 @@ for(n of num){       = igual o de cima porém imprime o conteúdo do array
    console.log(n)
 }
 
+FUNÇÕES PARAMETRIZADAS 
+aula22
+
+PARÂMETROS REST
+aula23
+
 

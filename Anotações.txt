@@ -57,8 +57,8 @@ forma alternativa de escrever um for
 let num = [10,20,30,40,50]
 
 for(n in num){       = faz um laço correndo todas as posições do array num
-   console.log(n)    = n é uma variável para correr pelas posições(vai imprimir as posições)
-}		     = é uma forma simplificada de escrever for(let n=0; n < num.length; n++){}
+   console.log(num[n])    = n é uma variável para correr pelas posições(vai imprimir as posições)
+}		     = é uma forma simplificada de escrever for(let n=0; n < num.length; n++){console.log(num[n])}
 
 for(n of num){       = igual o de cima porém imprime o conteúdo do array
    console.log(n)
